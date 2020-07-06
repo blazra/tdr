@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2073-gbb1afb747)")
+(kicad_sch (version 20200618) (host eeschema "(5.99.0-2195-g476558ece)")
 
   (page 1 5)
 
@@ -896,9 +896,9 @@
   (junction (at 227.33 116.84) (diameter 0) (color 0 0 0 0))
   (junction (at 236.22 128.27) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 53.975 91.44))
-  (no_connect (at 53.975 88.9))
   (no_connect (at 146.685 150.495))
+  (no_connect (at 53.975 88.9))
+  (no_connect (at 53.975 91.44))
 
   (wire (pts (xy 31.115 99.06) (xy 31.115 100.33))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1855,7 +1855,7 @@
     (uuid "00000000-0000-0000-0000-00005e72105d")
     (property "Reference" "J1" (id 0) (at 41.4528 54.2036 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 41.4528 56.515 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085" (id 2) (at 42.545 76.2 0)
+    (property "Footprint" "Moje:USB_C_Receptacle_JAE_DX07S016" (id 2) (at 42.545 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 42.545 76.2 0)
