@@ -1,8 +1,16 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2053-g67bd49b4a)")
+(kicad_sch (version 20200618) (host eeschema "(5.99.0-2073-gbb1afb747)")
 
   (page 5 5)
 
   (paper "A4")
+
+  (title_block
+    (date "2020-06-30")
+    (rev "A")
+    (company "Radovan Blažek")
+    (comment 3 "In preparation")
+    (comment 4 "EN")
+  )
 
   (lib_symbols
     (symbol "Amplifier_Operational:LMV321" (pin_names (offset 0.127))
@@ -359,10 +367,7 @@
   (junction (at 162.56 114.3) (diameter 0) (color 0 0 0 0))
   (junction (at 195.58 90.805) (diameter 0) (color 0 0 0 0))
 
-  (wire (pts (xy 48.26 45.72) (xy 48.26 47.625))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 48.26 47.625) (xy 78.74 47.625))
+  (wire (pts (xy 67.945 47.625) (xy 78.74 47.625))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 86.36 47.625) (xy 92.075 47.625))
@@ -453,10 +458,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
-  (global_label "VCCA0" (shape input) (at 143.51 75.565 180)
+  (hierarchical_label "5V_INPUT" (shape input) (at 67.945 47.625 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
-
   (hierarchical_label "~LDAC" (shape input) (at 106.68 114.3 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
@@ -471,6 +475,9 @@
   )
   (hierarchical_label "OUT_B" (shape output) (at 135.89 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (hierarchical_label "VCCA" (shape input) (at 143.51 75.565 180)
+    (effects (font (size 1.27 1.27)) (justify right))
   )
   (hierarchical_label "OUT_A" (shape output) (at 205.74 90.805 0)
     (effects (font (size 1.27 1.27)) (justify left))

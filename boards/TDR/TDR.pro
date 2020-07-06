@@ -1,4 +1,4 @@
-update=Tue 30 Jun 2020 01:23:21 CEST
+update=Mon 06 Jul 2020 11:31:43 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,18 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[LibeditFrame]
-version=1
-[SchematicFrame]
-version=1
-[sheetnames]
-1=0286d83b-7cf6-4ffd-a2c9-274935c9fdce:
-2=00000000-0000-0000-0000-00005e8b9db2:FT2232H
-3=00000000-0000-0000-0000-00005e807a78:FPGA_Power
-4=00000000-0000-0000-0000-00005e56b656:FPGA_IO
-5=f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1:DAC
-[PcbFrame]
-version=1
 [ModEditFrame]
 version=1
 [schematic_editor]
@@ -48,6 +36,12 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[PcbFrame]
+version=1
+[LibeditFrame]
+version=1
+[SchematicFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=/home/radek/kicad_sources/library-repos/kicad-templates/Worksheets/A4_ISO5457-1999_ISO7200-2004-compact_EN.kicad_wks
@@ -376,3 +370,9 @@ uViaDrill=0.1
 dPairWidth=0.3
 dPairGap=0.15
 dPairViaGap=0.25
+[sheetnames]
+1=d6503822-5b0c-4451-a20d-bd8139603407:
+2=00000000-0000-0000-0000-00005e8b9db2:FT2232H
+3=00000000-0000-0000-0000-00005e807a78:FPGA_Power
+4=00000000-0000-0000-0000-00005e56b656:FPGA_IO
+5=f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1:DAC
