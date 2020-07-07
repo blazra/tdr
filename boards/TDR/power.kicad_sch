@@ -4344,7 +4344,7 @@
 
   (symbol (lib_id "Device:C") (at 124.46 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "00000000-0000-0000-0000-00005eaf2823")
+    (uuid "24d6db3a-bc89-4eba-8adf-32a79e7a0839")
     (property "Reference" "C30" (id 0) (at 125.095 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
