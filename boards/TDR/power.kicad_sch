@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2241-g37ce9fb84)")
+(kicad_sch (version 20200618) (host eeschema "(5.99.0-2250-gafd432e68)")
 
   (page 3 5)
 
@@ -2055,6 +2055,7 @@
     )
   )
 
+
   (junction (at 34.29 87.63) (diameter 0) (color 0 0 0 0))
   (junction (at 34.29 132.08) (diameter 0) (color 0 0 0 0))
   (junction (at 34.29 172.72) (diameter 0) (color 0 0 0 0))
@@ -2143,6 +2144,9 @@
   (junction (at 255.27 100.33) (diameter 0) (color 0 0 0 0))
   (junction (at 255.27 102.87) (diameter 0) (color 0 0 0 0))
   (junction (at 255.27 105.41) (diameter 0) (color 0 0 0 0))
+
+  (no_connect (at 257.81 110.49))
+  (no_connect (at 257.81 113.03))
 
   (wire (pts (xy 25.4 41.91) (xy 25.4 172.72))
     (stroke (width 0) (type solid) (color 0 0 0 0))

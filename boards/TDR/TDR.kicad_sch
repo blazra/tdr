@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2241-g37ce9fb84)")
+(kicad_sch (version 20200618) (host eeschema "(5.99.0-2250-gafd432e68)")
 
   (page 1 5)
 
@@ -921,11 +921,47 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide)
+      (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts (xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54)
+               (xy 1.016 1.905) (xy 0 1.27)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
+
 
   (junction (at 38.735 100.33) (diameter 0) (color 0 0 0 0))
   (junction (at 55.88 74.93) (diameter 0) (color 0 0 0 0))
   (junction (at 55.88 80.01) (diameter 0) (color 0 0 0 0))
+  (junction (at 60.325 60.96) (diameter 0) (color 0 0 0 0))
   (junction (at 104.775 60.96) (diameter 0) (color 0 0 0 0))
   (junction (at 104.775 76.835) (diameter 0) (color 0 0 0 0))
   (junction (at 137.795 118.745) (diameter 0) (color 0 0 0 0))
@@ -937,8 +973,8 @@
   (junction (at 236.22 128.27) (diameter 0) (color 0 0 0 0))
 
   (no_connect (at 53.975 91.44))
-  (no_connect (at 53.975 88.9))
   (no_connect (at 146.685 150.495))
+  (no_connect (at 53.975 88.9))
 
   (wire (pts (xy 31.115 99.06) (xy 31.115 100.33))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -952,7 +988,7 @@
   (wire (pts (xy 38.735 100.33) (xy 38.735 101.6))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 53.975 60.96) (xy 104.775 60.96))
+  (wire (pts (xy 53.975 60.96) (xy 60.325 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 53.975 66.04) (xy 62.23 66.04))
@@ -995,6 +1031,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 58.42 104.14) (xy 58.42 105.41))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 60.325 60.96) (xy 104.775 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 62.23 66.04) (xy 62.23 96.52))
@@ -1370,6 +1409,21 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 60.325 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "f94e32c4-8186-443d-9e24-94914fac3496")
+    (property "Reference" "#FLG0101" (id 0) (at 60.325 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 60.325 57.15 0))
+    (property "Footprint" "" (id 2) (at 60.325 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 60.325 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 136.525 117.475 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e911f69")
@@ -1448,7 +1502,7 @@
   (symbol (lib_name "Moje:VCCHTX_1") (lib_id "Moje:VCCHTX") (at 224.79 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "9e62276d-c158-4841-b11b-e15bca5f9b5f")
-    (property "Reference" "#PWR?" (id 0) (at 224.79 39.37 0)
+    (property "Reference" "#PWR0141" (id 0) (at 224.79 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCCHTX" (id 1) (at 226.695 31.75 0))
@@ -2152,6 +2206,9 @@
   )
 
   (symbol_instances
+    (path "/f94e32c4-8186-443d-9e24-94914fac3496"
+      (reference "#FLG0101") (unit 1)
+    )
     (path "/00000000-0000-0000-0000-00005e720fa9"
       (reference "#PWR03") (unit 1)
     )
@@ -2182,6 +2239,9 @@
     (path "/abf43df2-1fe3-4ff3-aa2c-b089ee30d8f5"
       (reference "#PWR0140") (unit 1)
     )
+    (path "/9e62276d-c158-4841-b11b-e15bca5f9b5f"
+      (reference "#PWR0141") (unit 1)
+    )
     (path "/00000000-0000-0000-0000-00005e90d967"
       (reference "#PWR0162") (unit 1)
     )
@@ -2199,9 +2259,6 @@
     )
     (path "/00000000-0000-0000-0000-00005eac250f"
       (reference "#PWR0188") (unit 1)
-    )
-    (path "/9e62276d-c158-4841-b11b-e15bca5f9b5f"
-      (reference "#PWR?") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005e721021"
       (reference "C2") (unit 1)
@@ -2781,6 +2838,9 @@
     )
     (path "/00000000-0000-0000-0000-00005e56b656/befb0688-3e6a-4385-a495-e5d5e41ef049"
       (reference "#PWR0144") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005e56b656/136f9f81-12e4-4b5b-b8e2-af1a090936d2"
+      (reference "#PWR0146") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005e56b656/00000000-0000-0000-0000-00005e9277f1"
       (reference "#PWR0170") (unit 1)

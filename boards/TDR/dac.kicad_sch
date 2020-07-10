@@ -1,6 +1,6 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2241-g37ce9fb84)")
+(kicad_sch (version 20200618) (host eeschema "(5.99.0-2250-gafd432e68)")
 
-  (page 1 5)
+  (page 5 5)
 
   (paper "A4")
 
@@ -360,6 +360,7 @@
       )
     )
   )
+
 
   (junction (at 92.075 47.625) (diameter 0) (color 0 0 0 0))
   (junction (at 120.65 47.625) (diameter 0) (color 0 0 0 0))
