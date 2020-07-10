@@ -2145,6 +2145,8 @@
   (junction (at 255.27 102.87) (diameter 0) (color 0 0 0 0))
   (junction (at 255.27 105.41) (diameter 0) (color 0 0 0 0))
 
+  (no_connect (at 257.81 90.17))
+  (no_connect (at 257.81 92.71))
   (no_connect (at 257.81 110.49))
   (no_connect (at 257.81 113.03))
   (no_connect (at 257.81 118.11))
