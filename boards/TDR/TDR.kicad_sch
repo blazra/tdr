@@ -1966,7 +1966,7 @@
     (property "Sheet file" "dac.kicad_sch" (id 1) (at 214.63 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "OUT_A" output (at 234.95 54.61 0)
+    (pin "OUT_A" output (at 234.95 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "SDI" input (at 213.995 60.96 180)
@@ -1981,7 +1981,7 @@
     (pin "~LDAC" input (at 213.995 53.34 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "OUT_B" output (at 234.95 59.69 0)
+    (pin "OUT_B" output (at 234.95 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "5V_INPUT" input (at 213.995 46.99 180)
@@ -2890,6 +2890,9 @@
     (path "/00000000-0000-0000-0000-00005e56b656/68d3da96-bd4b-48ea-8b64-b6a324f99fd1"
       (reference "R7") (unit 1)
     )
+    (path "/00000000-0000-0000-0000-00005e56b656/f0d9aa56-55dc-4dfb-95a3-be7d7f8ba2ee"
+      (reference "TP1") (unit 1)
+    )
     (path "/00000000-0000-0000-0000-00005e56b656/00000000-0000-0000-0000-00005e7210c8"
       (reference "U1") (unit 1)
     )
@@ -2932,17 +2935,38 @@
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/4afe8f3b-9c22-4549-99f6-83cde47516df"
       (reference "#PWR0145") (unit 1)
     )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/34930f9b-2f34-4a1c-9b41-a588d6f8c290"
+      (reference "#PWR0160") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/32025cef-50ea-4e1f-9cbe-56ef288a9050"
+      (reference "#PWR0161") (unit 1)
+    )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/2728dc0a-4bfe-4587-8c7b-620684dd76c0"
       (reference "#PWR0186") (unit 1)
     )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/eb56ebc0-132d-4e41-a1a1-2588f4038564"
       (reference "#PWR0189") (unit 1)
     )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/63729b5c-b826-418a-81a0-206377caacc5"
+      (reference "#PWR0190") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/b1c94a61-69ce-4634-9391-7129c54a2f7c"
+      (reference "#PWR0191") (unit 1)
+    )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/00000000-0000-0000-0000-00005e86c0c5"
       (reference "C4") (unit 1)
     )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/5be37440-54ab-4009-8376-244e24c26e87"
       (reference "C23") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/3df0fc10-0822-4c59-a82f-31d1b3fd8396"
+      (reference "C27") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/32dffc1c-d28d-4dbb-900d-9eea11249c41"
+      (reference "C29") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/a7d15889-6522-4f66-8185-41360f27f8c9"
+      (reference "C31") (unit 1)
     )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/00000000-0000-0000-0000-00005ea176fb"
       (reference "FB1") (unit 1)
@@ -2964,6 +2988,9 @@
     )
     (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/f7571ec4-def1-4dfe-8d6c-595a0e0af154"
       (reference "U15") (unit 1)
+    )
+    (path "/f9fc04fe-099d-4539-8ef8-fc25a0dbd2d1/3a1ce273-62bb-48a0-a75a-c2c9c99b4ca7"
+      (reference "U16") (unit 1)
     )
   )
 )
