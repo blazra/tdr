@@ -1,6 +1,6 @@
-(kicad_sch (version 20200618) (host eeschema "(5.99.0-2250-gafd432e68)")
+(kicad_sch (version 20200714) (host eeschema "(5.99.0-2491-g71882a7b0)")
 
-  (page 5 5)
+  (page 1 5)
 
   (paper "A4")
 
@@ -37,7 +37,12 @@
       )
       (symbol "LMV321_0_1"
         (polyline
-          (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+          (pts
+            (xy -5.08 5.08)
+            (xy 5.08 0)
+            (xy -5.08 -5.08)
+            (xy -5.08 5.08)
+          )
           (stroke (width 0.254)) (fill (type background))
         )
         (pin power_in line (at -2.54 -7.62 90) (length 3.81)
@@ -100,35 +105,67 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 -1.778) (xy 0 -0.635))
+          (pts
+            (xy 0 -1.778)
+            (xy 0 -0.635)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.381 -0.889) (xy 0.508 -0.762))
+          (pts
+            (xy 0.381 -0.889)
+            (xy 0.508 -0.762)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.286 -1.143) (xy 2.286 -1.905))
+          (pts
+            (xy 2.286 -1.143)
+            (xy 2.286 -1.905)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.381 -0.889) (xy -0.381 -0.889) (xy -0.508 -1.016))
+          (pts
+            (xy 0.381 -0.889)
+            (xy -0.381 -0.889)
+            (xy -0.508 -1.016)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.762 -1.27) (xy 2.286 -1.27) (xy 2.286 -0.762))
+          (pts
+            (xy 0.762 -1.27)
+            (xy 2.286 -1.27)
+            (xy 2.286 -0.762)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 -0.889) (xy 0.508 -1.397) (xy -0.508 -1.397) (xy 0 -0.889))
+          (pts
+            (xy 0 -0.889)
+            (xy 0.508 -1.397)
+            (xy -0.508 -1.397)
+            (xy 0 -0.889)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.985 -3.81) (xy 9.525 -3.81) (xy 9.525 -5.08) (xy 10.16 -5.08))
+          (pts
+            (xy 6.985 -3.81)
+            (xy 9.525 -3.81)
+            (xy 9.525 -5.08)
+            (xy 10.16 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.985 1.27) (xy 9.525 1.27) (xy 9.525 2.54) (xy 10.16 2.54))
+          (pts
+            (xy 6.985 1.27)
+            (xy 9.525 1.27)
+            (xy 9.525 2.54)
+            (xy 10.16 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -140,22 +177,38 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -3.81) (xy -1.27 -3.81))
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts (xy 1.27 1.27) (xy -1.27 1.27))
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts (xy 6.985 -3.81) (xy 5.715 -1.905) (xy 1.27 -1.905) (xy 1.27 -5.715)
-               (xy 5.715 -5.715) (xy 6.985 -3.81)
+          (pts
+            (xy 1.27 -3.81)
+            (xy -1.27 -3.81)
           )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 6.985 1.27) (xy 5.715 3.175) (xy 1.27 3.175) (xy 1.27 -0.635)
-               (xy 5.715 -0.635) (xy 6.985 1.27)
+          (pts
+            (xy 1.27 1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.985 -3.81)
+            (xy 5.715 -1.905)
+            (xy 1.27 -1.905)
+            (xy 1.27 -5.715)
+            (xy 5.715 -5.715)
+            (xy 6.985 -3.81)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.985 1.27)
+            (xy 5.715 3.175)
+            (xy 1.27 3.175)
+            (xy 1.27 -0.635)
+            (xy 5.715 -0.635)
+            (xy 6.985 1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -219,11 +272,17 @@
       )
       (symbol "C_0_1"
         (polyline
-          (pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
       )
@@ -262,16 +321,26 @@
       )
       (symbol "Ferrite_Bead_0_1"
         (polyline
-          (pts (xy 0 -1.27) (xy 0 -1.2192))
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -1.2192)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 1.27) (xy 0 1.2954))
+          (pts
+            (xy 0 1.27)
+            (xy 0 1.2954)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159)
-               (xy -2.7686 0.4064)
+          (pts
+            (xy -2.7686 0.4064)
+            (xy -1.7018 2.2606)
+            (xy 2.7686 -0.3048)
+            (xy 1.6764 -2.159)
+            (xy -2.7686 0.4064)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -396,8 +465,13 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -411,17 +485,16 @@
     )
   )
 
-
-  (junction (at 74.295 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 83.185 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 109.855 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 143.51 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 143.51 90.805) (diameter 0) (color 0 0 0 0))
-  (junction (at 167.005 93.98) (diameter 0) (color 0 0 0 0))
-  (junction (at 175.895 93.98) (diameter 0) (color 0 0 0 0))
-  (junction (at 182.245 53.34) (diameter 0) (color 0 0 0 0))
-  (junction (at 185.42 120.015) (diameter 0) (color 0 0 0 0))
-  (junction (at 218.44 96.52) (diameter 0) (color 0 0 0 0))
+  (junction (at 74.295 53.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 83.185 53.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 109.855 53.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 143.51 53.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 143.51 90.805) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 167.005 93.98) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 175.895 93.98) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 182.245 53.34) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 185.42 120.015) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 218.44 96.52) (diameter 1.016) (color 0 0 0 0))
 
   (wire (pts (xy 60.325 53.34) (xy 74.295 53.34))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -734,7 +807,7 @@
     (property "Reference" "R1" (id 0) (at 168.7831 87.7506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 168.7831 90.0493 0)
+    (property "Value" "4.7k" (id 1) (at 168.783 90.049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 165.227 88.9 90)
@@ -751,7 +824,7 @@
     (property "Reference" "R3" (id 0) (at 168.7831 97.9106 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 168.7831 100.2093 0)
+    (property "Value" "4.7k" (id 1) (at 168.783 100.209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 165.227 99.06 90)
@@ -766,7 +839,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e84cdfe")
     (property "Reference" "R8" (id 0) (at 174.625 114.7888 90))
-    (property "Value" "470" (id 1) (at 174.625 117.087 90))
+    (property "Value" "4.7k" (id 1) (at 174.625 117.0875 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 174.625 118.237 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -778,8 +851,8 @@
   (symbol (lib_id "Device:R") (at 205.105 120.015 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e84bc39")
-    (property "Reference" "R9" (id 0) (at 205.2574 115.7224 90))
-    (property "Value" "470" (id 1) (at 205.486 117.856 90))
+    (property "Reference" "R9" (id 0) (at 205.105 114.7888 90))
+    (property "Value" "4.7k" (id 1) (at 205.105 117.0875 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 205.105 121.793 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -876,8 +949,8 @@
   (symbol (lib_id "Device:Ferrite_Bead") (at 167.64 53.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ea176fb")
-    (property "Reference" "FB1" (id 0) (at 167.005 57.15 90))
-    (property "Value" "BLM41PG600SN1L" (id 1) (at 167.64 49.53 90))
+    (property "Reference" "FB1" (id 0) (at 167.64 46.4882 90))
+    (property "Value" "BLM41PG600SN1L" (id 1) (at 167.64 48.7869 90))
     (property "Footprint" "Inductor_SMD:L_1806_4516Metric" (id 2) (at 167.64 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -889,10 +962,10 @@
   (symbol (lib_id "Amplifier_Operational:LMV321") (at 198.755 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e82c69d")
-    (property "Reference" "U4" (id 0) (at 199.2122 91.313 0)
+    (property "Reference" "U4" (id 0) (at 199.1361 89.0206 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TLV3541" (id 1) (at 199.2122 89.027 0)
+    (property "Value" "MCP6V81T-E/OT" (id 1) (at 199.1361 91.3193 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 198.755 96.52 0)
